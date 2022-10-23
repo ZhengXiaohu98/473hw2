@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head Access-Control-Allow-Origin: *>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web 473 calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap"
+    rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.3.1/math.js"
+    integrity="sha512-Q1qOFs0DNtp9bviP8uSyPm0d1ES7zw8BXZ7AF2XCWIVKHObK6U7mkMZ+SGOf1vF71zI/60lO+FjBTrzaYGRqnw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+  <div class="main">
+    <div class="container">
+      <div class="resBoard">
+        <input type="text" id="result" disabled="disabled">
+        <input type="text" id="board" class="input-box" disabled="disabled" placeholder="0">
+      </div>
+      <!-- First Row -->
+      <button class="keys">Deg</button>
+      <button class="keys">x!</button>
+      <button class="keys">(</button>
+      <button class="keys">)</button>
+      <button class="keys">%</button>
+      <button class="keys">AC</button>
+      <!-- Second Row -->
+      <button class="keys">sin</button>
+      <button class="keys">ln</button>
+      <button class="num keys">7</button>
+      <button class="num keys">8</button>
+      <button class="num keys">9</button>
+      <button class="keys">÷</button>
+      <!-- Third Row -->
+      <button class="keys">cos</button>
+      <button class="keys">log</button>
+      <button class="num keys">4</button>
+      <button class="num keys">5</button>
+      <button class="num keys">6</button>
+      <button class="keys">x</button>
+      <!-- Fourth Row -->
+      <button class="keys">tan</button>
+      <button class="keys">√</button>
+      <button class="num keys">1</button>
+      <button class="num keys">2</button>
+      <button class="num keys">3</button>
+      <button class="keys">−</button>
+      <!-- Fifth Row -->
+      <button class="keys">EXP</button>
+      <button class="keys">x <span style="position: relative; bottom: .4em; right: .1em;">y</span></button>
+      <button class="num keys">0</button>
+      <button class="num keys">.</button>
+      <button class="res keys">=</button>
+      <button class="keys">+</button>
+    </div>
+  </div>
+  <!-- Adding script -->
+  <script src="script.js"></script>
+</body>
+
+</html>
